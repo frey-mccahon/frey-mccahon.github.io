@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0%;
+  text-align: center;
+  background: black;
+}
+
+header {
+  padding: 0%;
+  width: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(14,0,255,1) 7%, rgba(0,5,113,1) 75%);
+overflow-x: hidden;
+}
+.cityscape {
+  height: 500px;
+}
+
+.title-container {
+font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 40px;
+color: rgb(65, 72, 191);
+margin-top: -120px;
+}
+
+.computer-gif {
+  margin-left: -5px;
+  margin-top: -60px;
+}
+
+.info-centre {
+color: rgb(202, 174, 90);
+font-size: 14px;
+font-family: 'Arial Narrow Bold', sans-serif;
+font-style: italic;
+background: rgb(242,224,49);
+background: linear-gradient(180deg, rgba(242,224,49,1) 0%, rgba(254,255,194,1) 26%, rgba(255,222,27,1) 50%, rgba(255,253,235,1) 73%, rgba(255,206,7,1) 97%);
+width: 200px;
+padding: 0.5px;
+border-radius: 10px;
+margin-left: 480px;
+margin-top: -150px;
+display: inline-block;
+}
+
+.webcam-warning {
+  color: red ;
+  animation: animate 0.8s linear infinite;
+}
+
+.main-body {
+
+  background: blue;
+  width: 75vw;
+  height: 500px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom-ad {
+  margin-left: 100px;
+}
+
+@keyframes animate{
+  0%{
+    opacity: 0.3;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.3;
+  }
+
