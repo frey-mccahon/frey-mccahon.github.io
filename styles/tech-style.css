@@ -137,8 +137,13 @@ border-radius: 5px;
   justify-content: center;
   flex-direction: row;
   padding-top: 15px;
-  margin-left: -120px;
+  margin-left: -50px;
 color: blue;
+  }
+
+  .tech-menu-title {
+    margin-top: ;
+margin-bottom: 15px;
   }
 
   .menu-list {

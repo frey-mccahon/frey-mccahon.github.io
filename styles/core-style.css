@@ -147,6 +147,10 @@ color: blue;
     flex-direction: column;
   }
 
+  .core-menu-title {
+    margin-bottom: 10px;
+  }
+
 .reflections-title {
    margin-bottom: 10px;
   }
@@ -194,4 +198,14 @@ background-color: #f8f8f8;
   width: 800px;
   height: 850px;
 
+}
+
+.content {
+  margin-left: 40px;
+  padding-top: 30px;
+}
+
+.daq {
+  color: rgb(71, 71, 206);
+  font-size: 20px;
 }
