@@ -28,6 +28,7 @@ margin-top: -120px;
   margin-top: -60px;
 }
 
+
 .info-centre {
 color: rgb(202, 174, 90);
 font-size: 14px;
@@ -36,7 +37,8 @@ font-style: italic;
 background: rgb(242,224,49);
 background: linear-gradient(180deg, rgba(242,224,49,1) 0%, rgba(254,255,194,1) 26%, rgba(255,222,27,1) 50%, rgba(255,253,235,1) 73%, rgba(255,206,7,1) 97%);
 width: 200px;
-padding: 0.5px;
+padding-left: 2px;
+padding-right: 2px;
 border-radius: 10px;
 margin-left: 480px;
 margin-top: -150px;
@@ -46,20 +48,63 @@ display: inline-block;
 .webcam-warning {
   color: red ;
   animation: animate 0.8s linear infinite;
+
 }
 
 .main-body {
-
+  
+  overflow-y:visible;
   background: blue;
   width: 75vw;
-  height: 500px;
+  min-height: 500px;
   border-radius: 10px;
   margin: 0 auto;
   margin-bottom: 100px;
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 50px;
+  padding-bottom: ;
+}
+
+.main-left-section {
+  color: aliceblue;
+  font-size: 20px;
+float: left;
+width: 37vw;
+height: 500px;
+box-sizing: border-box;
+padding-top: 100px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+
+.main-right-section {
+  color: aliceblue;
+  font-size: 20px;
+box-sizing: border-box;
+  background-color:;
+  width: 37vw;
+  height: 500px;
+  float: right;
+  padding-top: 100px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+
+}
+
+.main-button {
+  cursor:pointer;
+  background-color: blue;
+box-sizing: border-box;
+color: rgb(255, 0, 0);
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 10px;
+border: solid red;
+border-radius: 12px;
 }
 
 .bottom-ad {

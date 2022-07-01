@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+}
+
+
+.nav-buttons {
+  cursor:pointer;
+color: red;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 10px;
+border: solid red;
+border-radius: 12px;
+margin-left: 10px;
+}
+
+
+h1 {
+
+margin: 20px;
+color: red;
+font-family: Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+
+img {
+  width: 100%;
+}
+
+.navbar {
+
+  background: rgb(14,0,255);
+  background: linear-gradient(0deg, rgba(14,0,255,1) 0%, rgba(0,5,113,1) 75%);
+height: 100px;
+}
+
+.container-top {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.nav {
+  
+}
+
+.computer-gif {
+  width: 220px;
+  height: auto;
+}
+
+.navflex {
+  display: flex;
+  flex-direction: row;
+min-width: 800px;
+justify-content:space-between;
+align-items: center;
+height: 100%;
+}
+
+.silverbar-top {
+  background: rgb(233,233,233);
+  background: linear-gradient(0deg, rgba(233,233,233,1) 0%, rgba(255,255,255,1) 78%, rgba(222,222,222,1) 100%);
+  height: 5px;
+}
+
+.silverbar-bottom {
+  background: rgb(164,164,164);
+  background: linear-gradient(0deg, rgba(164,164,164,1) 0%, rgba(233,233,233,1) 100%, rgba(222,222,222,1) 100%);
+  height: 5px;
+}
+
+.main-body {
+display: flex;
+flex-direction: row;
+}
+
+.left-menu {
+  width: 220px;
+  height: 1000px;
+  background: rgb(235,235,235);
+background: linear-gradient(0deg, rgba(235,235,235,1) 0%, rgba(227,227,227,1) 96%, rgba(147,147,147,1) 100%, rgba(150,150,150,1) 100%);
+min-width: 220px;
+}
+
+.left-menu-bed {
+  width: 200px;
+  height: 500px;
+margin-left: 10px;
+margin-top: 15px;
+border-radius: 5px;
+  background: rgb(242, 242, 242);
+  
+}
+
+
+.help-button {
+  text-decoration: none;
+    cursor:pointer;
+    color: red;
+background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(14,0,255,1) 7%, rgba(0,5,113,1) 75%);
+padding-top: 10px;
+padding-left: 47px;
+padding-right: 20px;
+padding-bottom: 10px;
+border-radius: 12px;
+margin-left: 12px;
+margin-right: 12px;
+margin-top: 15px;
+
+}
+
+.content-divider {
+width: 10px;
+height: 1000px;
+  background: rgb(235,235,235);
+background: linear-gradient(90deg, rgba(235,235,235,1) 0%, rgba(228,228,228,1) 85%, rgba(227,227,227,1) 92%, rgba(147,147,147,1) 100%, rgba(150,150,150,1) 100%);
+min-width: 10px;
+}
+
+.content-right {
+height: 1000px;
+width: 100vw;
+background-color: #f8f8f8;
+}
+
+
