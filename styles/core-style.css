@@ -46,6 +46,7 @@ img {
   background: rgb(14,0,255);
   background: linear-gradient(0deg, rgba(14,0,255,1) 0%, rgba(0,5,113,1) 75%);
 height: 100px;
+width: 1130px;
 }
 
 .container-top {
@@ -77,12 +78,14 @@ height: 100%;
   background: rgb(233,233,233);
   background: linear-gradient(0deg, rgba(233,233,233,1) 0%, rgba(255,255,255,1) 78%, rgba(222,222,222,1) 100%);
   height: 5px;
+  width: 1130px;
 }
 
 .silverbar-bottom {
   background: rgb(164,164,164);
   background: linear-gradient(0deg, rgba(164,164,164,1) 0%, rgba(233,233,233,1) 100%, rgba(222,222,222,1) 100%);
   height: 5px;
+  width: 1130px;
 }
 
 .main-body {
@@ -167,6 +170,7 @@ min-width: 10px;
 height: 1000px;
 width: 100vw;
 background-color: #f8f8f8;
+width: 1130px;
 }
 
 .content-title-box {
